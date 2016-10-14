@@ -1,0 +1,26 @@
+uuid: 42576fa9-6f4f-49ef-b9af-75ee066cd9c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - zircon
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+id: zircon_tools
+theme: zircon
+region: main_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Main
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

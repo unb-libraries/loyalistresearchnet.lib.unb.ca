@@ -1,0 +1,43 @@
+uuid: 62ea95c2-785b-4bce-ac2f-de05bb273781
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xH7rSi56G3YoZOKqm2MagpLFX7xzJdAjOOecqfiiJxU
+id: upgrade_d7_node_revision_page
+migration_tags:
+  - 'Drupal 7'
+migration_group: migrate_drupal_7
+label: 'Node revisions (Basic page)'
+source:
+  plugin: d7_node_revision
+  node_type: page
+process:
+  nid: nid
+  vid: vid
+  type: type
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  title: title
+  uid: node_uid
+  status: status
+  created: created
+  changed: changed
+  promote: promote
+  sticky: sticky
+  revision_uid: revision_uid
+  revision_log: log
+  revision_timestamp: timestamp
+  body: body
+destination:
+  plugin: 'entity_revision:node'
+migration_dependencies:
+  required:
+    61: upgrade_d7_node_article
+    62: upgrade_d7_node_forum
+    63: upgrade_d7_node_news
+    64: upgrade_d7_node_page
+    65: upgrade_d7_node_poll
+  optional: {  }

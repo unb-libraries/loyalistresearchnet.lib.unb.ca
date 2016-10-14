@@ -1,0 +1,32 @@
+uuid: 0fa796bd-58ef-47e0-a99d-e7e91280bdf3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Mx57g2iQn3BzDfW8L-gIDohN3_gZOxUB1CT_XDl6nSQ
+id: upgrade_update_settings
+migration_tags:
+  - 'Drupal 6'
+  - 'Drupal 7'
+migration_group: migrate_drupal_7
+label: 'Update configuration'
+source:
+  plugin: variable
+  variables:
+    - update_max_fetch_attempts
+    - update_fetch_url
+    - update_notification_threshold
+    - update_notify_emails
+    - update_check_frequency
+process:
+  fetch/max_attempts: update_max_fetch_attempts
+  fetch/url: update_fetch_url
+  notification/threshold: update_notification_threshold
+  notification/emails: update_notify_emails
+  check/interval_days: update_check_frequency
+destination:
+  plugin: config
+  config_name: update.settings
+migration_dependencies:
+  required: {  }
+  optional: {  }

@@ -1,0 +1,20 @@
+uuid: 1a931246-3191-45b6-93b8-b2181ff93d38
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - loyalistresearchnettheme
+id: loyalistresearchnettheme_system_main
+theme: loyalistresearchnettheme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

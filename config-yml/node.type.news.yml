@@ -1,0 +1,11 @@
+uuid: 590c36fb-194d-4214-90fb-40e1f22b056a
+langcode: en
+status: true
+dependencies: {  }
+name: News
+type: news
+description: 'News items for right sidebar on homepage'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

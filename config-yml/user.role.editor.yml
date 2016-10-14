@@ -1,0 +1,48 @@
+uuid: 284fa352-d01a-4641-a416-f2a1b503b441
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: editor
+weight: 3
+is_admin: null
+permissions:
+  - 'access content'
+  - 'administer menu'
+  - 'administer nodes'
+  - 'cancel own vote'
+  - 'create article content'
+  - 'create forum content'
+  - 'create news content'
+  - 'create page content'
+  - 'create poll content'
+  - 'delete any article content'
+  - 'delete any forum content'
+  - 'delete any news content'
+  - 'delete any page content'
+  - 'delete any poll content'
+  - 'delete own article content'
+  - 'delete own forum content'
+  - 'delete own news content'
+  - 'delete own page content'
+  - 'delete own poll content'
+  - 'delete revisions'
+  - 'edit any article content'
+  - 'edit any forum content'
+  - 'edit any news content'
+  - 'edit any page content'
+  - 'edit any poll content'
+  - 'edit own article content'
+  - 'edit own forum content'
+  - 'edit own news content'
+  - 'edit own page content'
+  - 'edit own poll content'
+  - 'inspect all votes'
+  - 'revert revisions'
+  - 'search content'
+  - 'use advanced search'
+  - 'use text format filtered_html'
+  - 'use text format full_html'
+  - 'view own unpublished content'
+  - 'view revisions'
+  - 'vote on polls'

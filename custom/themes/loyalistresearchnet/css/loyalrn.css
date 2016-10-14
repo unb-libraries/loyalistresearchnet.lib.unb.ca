@@ -1,0 +1,6 @@
+/* Global */
+
+/* Give inactive, unvisited links a contrasting look. */
+.node__content a {
+    color: #c01700;
+}

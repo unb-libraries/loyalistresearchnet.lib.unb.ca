@@ -1,0 +1,20 @@
+uuid: 12badd31-9326-4194-a11c-5002e38d678d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - adaptivetheme_subtheme
+id: adaptivetheme_subtheme_system_main
+theme: adaptivetheme_subtheme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

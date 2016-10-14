@@ -1,0 +1,27 @@
+uuid: 7a3499aa-5d46-4391-9d93-a32006fc7c3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.news.comment_node_news
+    - field.field.node.news.field_news_body
+    - node.type.news
+  module:
+    - comment
+    - user
+id: node.news.default
+targetEntityType: node
+bundle: news
+mode: default
+content:
+  comment_node_news:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      pager_id: 0
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_news_body: true

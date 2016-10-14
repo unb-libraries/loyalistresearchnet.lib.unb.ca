@@ -1,0 +1,26 @@
+uuid: ac1f42ee-03e3-4929-a118-c3aef4e705a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - business
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+id: business_tools
+theme: business
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Main
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

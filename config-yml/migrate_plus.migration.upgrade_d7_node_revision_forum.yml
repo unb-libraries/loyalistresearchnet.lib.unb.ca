@@ -1,0 +1,48 @@
+uuid: b8816484-0a72-4c15-a1db-2f3b7daadf07
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BbO5XkodOrSZXS85fZaBUP560DExWpzBad2F6ycOU2w
+id: upgrade_d7_node_revision_forum
+migration_tags:
+  - 'Drupal 7'
+migration_group: migrate_drupal_7
+label: 'Node revisions (Forum topic)'
+source:
+  plugin: d7_node_revision
+  node_type: forum
+process:
+  nid: nid
+  vid: vid
+  type: type
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  title: title
+  uid: node_uid
+  status: status
+  created: created
+  changed: changed
+  promote: promote
+  sticky: sticky
+  revision_uid: revision_uid
+  revision_log: log
+  revision_timestamp: timestamp
+  taxonomy_forums:
+    plugin: iterator
+    source: taxonomy_forums
+    process:
+      target_id: tid
+  body: body
+destination:
+  plugin: 'entity_revision:node'
+migration_dependencies:
+  required:
+    61: upgrade_d7_node_article
+    62: upgrade_d7_node_forum
+    63: upgrade_d7_node_news
+    64: upgrade_d7_node_page
+    65: upgrade_d7_node_poll
+  optional: {  }

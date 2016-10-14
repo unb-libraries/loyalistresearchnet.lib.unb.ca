@@ -1,0 +1,23 @@
+uuid: 526ea366-6fdb-45b1-be04-f5d35ca9eb9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_forum
+    - field.field.comment.comment_node_forum.comment_body
+  module:
+    - text
+id: comment.comment_node_forum.default
+targetEntityType: comment
+bundle: comment_node_forum
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

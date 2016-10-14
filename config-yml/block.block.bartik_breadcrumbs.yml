@@ -1,0 +1,34 @@
+uuid: e045a1c0-d5d7-44a4-9a80-d73a856f7e99
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: bartik_breadcrumbs
+theme: bartik
+region: '-1'
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      forum: forum
+      news: news
+      page: page
+      poll: poll
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
