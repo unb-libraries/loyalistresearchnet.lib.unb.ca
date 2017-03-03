@@ -76,11 +76,6 @@ Feature: Core
         Then I should see the heading "Researchers"
         And I should see the link "Kelly K. Chaves"
 
-      Scenario: Visit Conferences
-        Given I am logged in as a user with the "administrator" role
-        When I visit "node/11"
-        Then I should see the heading "Conferences"
-
       Scenario: Visit Contact
         Given I am logged in as a user with the "administrator" role
         When I visit "node/12"
