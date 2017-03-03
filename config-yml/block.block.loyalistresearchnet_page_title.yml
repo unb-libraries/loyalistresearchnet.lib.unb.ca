@@ -1,0 +1,20 @@
+uuid: feeefc95-b2e3-4f9d-9d0f-5fdf4d20c448
+langcode: en
+status: true
+dependencies:
+  theme:
+    - loyalistresearchnet
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: loyalistresearchnet_page_title
+theme: loyalistresearchnet
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

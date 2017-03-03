@@ -1,0 +1,24 @@
+uuid: 5add2eda-e98d-43a7-adcb-f4dc6968402c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - views
+  theme:
+    - loyalistresearchnet
+id: views_block__news_block_1
+theme: loyalistresearchnet
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'views_block:news-block_1'
+settings:
+  id: 'views_block:news-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

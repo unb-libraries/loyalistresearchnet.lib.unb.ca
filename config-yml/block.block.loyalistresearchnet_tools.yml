@@ -1,0 +1,26 @@
+uuid: 85c16636-31d7-43ac-ae4d-a710ffabf2e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - loyalistresearchnet
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+id: loyalistresearchnet_tools
+theme: loyalistresearchnet
+region: main_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Main
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

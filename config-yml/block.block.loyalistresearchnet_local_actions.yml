@@ -1,0 +1,20 @@
+uuid: 188192c4-a6b2-494d-8150-df1a9ab993d1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - loyalistresearchnet
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: loyalistresearchnet_local_actions
+theme: loyalistresearchnet
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

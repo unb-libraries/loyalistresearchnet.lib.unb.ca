@@ -1,0 +1,22 @@
+uuid: c8c9ee1a-cd15-44f3-91fc-f67df5ac0329
+langcode: en
+status: true
+dependencies:
+  theme:
+    - loyalistresearchnet
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: loyalistresearchnet_local_tasks
+theme: loyalistresearchnet
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

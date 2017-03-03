@@ -1,0 +1,22 @@
+uuid: 9dd9b47d-ddab-494b-91bc-647c520af38e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - loyalistresearchnet
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: loyalistresearchnet_help
+theme: loyalistresearchnet
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

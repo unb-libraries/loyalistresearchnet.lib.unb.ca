@@ -1,0 +1,22 @@
+uuid: 3c42c667-a802-4bd4-a4a6-eec89c7ac61e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - loyalistresearchnet
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: loyalistresearchnet_messages
+theme: loyalistresearchnet
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

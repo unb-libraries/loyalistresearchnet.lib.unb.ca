@@ -1,6 +1,6 @@
 favicon:
   mimetype: image/vnd.microsoft.icon
-  path: ''
+  path: 'public://favicon_1.ico'
   url: ''
   use_default: false
 features:

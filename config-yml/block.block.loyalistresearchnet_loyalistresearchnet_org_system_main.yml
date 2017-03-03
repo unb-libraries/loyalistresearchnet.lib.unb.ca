@@ -1,0 +1,22 @@
+uuid: b0bfda20-06a5-4701-9b39-5ad62ee20750
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - loyalistresearchnet
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: loyalistresearchnet_loyalistresearchnet_org_system_main
+theme: loyalistresearchnet
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

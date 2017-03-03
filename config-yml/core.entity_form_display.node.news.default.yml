@@ -8,6 +8,7 @@ dependencies:
     - node.type.news
   module:
     - path
+    - text
 id: node.news.default
 targetEntityType: node
 bundle: news
@@ -22,6 +23,13 @@ content:
     type: datetime_timestamp
     weight: 10
     settings: {  }
+    third_party_settings: {  }
+  field_news_body:
+    type: text_textarea
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path
@@ -57,4 +65,3 @@ content:
     third_party_settings: {  }
 hidden:
   comment_node_news: true
-  field_news_body: true

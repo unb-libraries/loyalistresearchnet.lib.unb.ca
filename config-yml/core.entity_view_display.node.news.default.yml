@@ -8,6 +8,7 @@ dependencies:
     - node.type.news
   module:
     - comment
+    - text
     - user
 id: node.news.default
 targetEntityType: node
@@ -17,11 +18,19 @@ content:
   comment_node_news:
     label: hidden
     type: comment_default
-    weight: 20
+    weight: 1
     settings:
       pager_id: 0
+      view_mode: default
+    third_party_settings: {  }
+  field_news_body:
+    type: text_default
+    weight: 0
+    label: hidden
+    settings: {  }
     third_party_settings: {  }
   links:
-    weight: 100
-hidden:
-  field_news_body: true
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

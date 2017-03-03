@@ -1,0 +1,24 @@
+uuid: da4c908f-6aef-4710-b1a8-fd78a93aca4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.admin-login
+  module:
+    - system
+  theme:
+    - loyalistresearchnet
+id: adminlogin
+theme: loyalistresearchnet
+region: footer
+weight: -7
+provider: null
+plugin: 'system_menu_block:admin-login'
+settings:
+  id: 'system_menu_block:admin-login'
+  label: 'Admin Login'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

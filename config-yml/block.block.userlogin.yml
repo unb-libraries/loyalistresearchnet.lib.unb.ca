@@ -1,0 +1,20 @@
+uuid: a57909e8-67c0-4b56-8159-f68f04e1bdb2
+langcode: en
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - loyalistresearchnet
+id: userlogin
+theme: loyalistresearchnet
+region: '-1'
+weight: -6
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }
