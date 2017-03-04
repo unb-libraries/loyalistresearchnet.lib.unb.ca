@@ -11,13 +11,26 @@ The following packages are required to be globally installed on your development
 * [nodejs](https://nodejs.org/en/)
 * [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-### Initial Setup
+### 1. Initial Setup
+
+#### A. Configure Local Development
+In the ```env/drupal.env``` file, change the environment settings to match your local development environment.
+
+```
+DOCKER_ENDPOINT_IP=192.168.99.100
+LOCAL_USER_GROUP=20
+```
+
+* ```DOCKER_ENDPOINT_IP``` - This is the IP of your docker daemon. In OSX, this is likely the [IP of your docker-machine](https://docs.docker.com/machine/reference/ip/). On Linux, this is probably localhost.
+* ```LOCAL_USER_GROUP``` - The [group id](https://kb.iu.edu/d/adwf) of your local user. This is used to change permissions when deploying locally.
+
+#### B. Setup Repository
 ```
 npm install
 npm run setup
 ```
 
-### Deploy Instance
+### 2. Deploy Instance
 ```
 npm run start
 ```
@@ -41,7 +54,6 @@ npm run start
 * ```uli``` : Provide a ULI link into a running container.
 * ```validate-php``` : Validate the git-staged changes against Drupal standards.
 * ```write-config``` : Write out the container's in-database configuration into ./config-yml for persistence.
-
 
 ## Repository Branches
 * `dev` - Core development branch. Deployed to dev when pushed.
