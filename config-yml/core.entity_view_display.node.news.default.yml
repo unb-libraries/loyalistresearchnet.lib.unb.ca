@@ -23,14 +23,17 @@ content:
       pager_id: 0
       view_mode: default
     third_party_settings: {  }
+    region: content
   field_news_body:
     type: text_default
     weight: 0
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    region: content
   links:
     weight: 2
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden: {  }
