@@ -15,10 +15,6 @@ ENV DRUPAL_SITE_URI loyalistresearchnet.org
 ENV DRUPAL_SITE_UUID 4f7e5705-9fb7-4e1b-a2fe-032e04e64e9a
 ENV DRUPAL_CONFIGURATION_EXPORT_SKIP devel
 
-# Newrelic.
-ENV NEWRELIC_PHP_VERSION 7.2.0.191
-ENV NEWRELIC_PHP_ARCH musl
-
 # Add scripts, remove delete upstream drupal build.
 COPY ./scripts/container /scripts
 RUN /scripts/DeployUpstreamContainerScripts.sh && \
