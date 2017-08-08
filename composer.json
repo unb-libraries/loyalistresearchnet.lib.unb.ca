@@ -3,6 +3,11 @@
   "minimum-stability": "dev",
   "name": "unblibraries/loyalistresearchnet.org",
   "description": "Provision/scaffolding for developing drupal instance.",
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  },
   "repositories": [
     {
       "type": "git",

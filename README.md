@@ -26,7 +26,7 @@ LOCAL_USER_GROUP=20
 
 ### 2. Deploy Instance
 ```
-composer install
+composer install --prefer-dist
 ```
 
 ```
@@ -38,4 +38,4 @@ Run ```dockworker``` to get a list of available commands.
 
 ## Repository Branches
 * `dev` - Core development branch. Deployed to dev when pushed.
-* `live` - Deployed to live when pushed.
+* `prod` - Deployed to live when pushed.

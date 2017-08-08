@@ -1,6 +1,6 @@
 dockworker:
   instance:
-    project_prefix: LRN
+    project_prefix: LOYRES
     name: loyalistresearchnet.org
     upstream_image: unblibraries/drupal:alpine-nginx-php7-8.x-composer
   options:
