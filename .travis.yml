@@ -1,0 +1,54 @@
+language: php
+sudo: required
+
+services:
+  - docker
+
+php:
+  - '7.1'
+
+cache:
+  directories:
+        - $HOME/.composer/cache
+
+git:
+  depth: 1
+
+env:
+  global:
+    - SERVICE_NAME=loyalistresearchnet.org
+    - AMAZON_ECR_REGION=us-east-1
+    - DEPLOY_BRANCHES=dev,prod
+    - DEPLOYMENT_FINISHED_MARKER=99_report_as_complete
+    - DOCKER_UPSTREAM_IMAGE=unblibraries/drupal:alpine-nginx-php7-8.x-composer
+    - OLD_IMAGES_TO_KEEP=2
+    - SERVICE_DEPLOY_PORT=80
+    - SERVICE_TEST_UP_PATH=/user
+
+before_install:
+  - git clone git://github.com/unb-libraries/CargoDock.git CargoDock
+  - CargoDock/travis/installDockerCompose.sh
+  - CargoDock/aws/installAuthAws.sh
+  - cp docker-compose.yml.travis docker-compose.yml
+  - CargoDock/travis/setDockerComposeEnv.sh
+
+before_script:
+  - CargoDock/travis/buildInstanceTheme.sh
+  - CargoDock/travis/buildInstanceForTesting.sh
+  - CargoDock/travis/waitForDeploy.sh
+  - CargoDock/travis/checkStartupForErrors.sh
+
+script:
+  - CargoDock/travis/testInstance.sh
+
+after_success:
+  - CargoDock/travis/buildImagePushToRepo.sh
+  - CargoDock/travis/cleanupOldImages.sh
+  - CargoDock/travis/triggerKubeDeploy.sh
+
+notifications:
+  slack:
+    rooms:
+      secure: bA0FIuDpo8FkLoDSqxTBqIwY4er0WtJNKY9En9QDPHwsl6jkiXy7IAtTa9rs/HdZNEFgXIzUgEUn379ZxuZvbfqPK/2DtsRbMZFoTTB7r6bX5J3sctOcWiKYiIwTv+pDeHW3N0397OT2yB3Fw0NgaWfAfrYr6p3l6EJAXpguNxWyh2ne2JPX2wgO5pwQjsL44vyhuId+7O/TfbCdGvBh9+ushA8RYtqIbb7MYK/qoRgaCjAOb6W3Lul2//WlUbFU09n5R5mp7809imO5z/fmeAAgzfflBBUsa5ldpXpyit3YzAznXtLMjT6VJcmP77MN+KcVd/OTeuEGzj1hjuvRxZfGLRh7WgYbz3U6ecTDW5aWh7dHcpcoYSn4RXR3q9cxyp5eGhbfE2ii/QlLW31rLCkMwLQpF1R4Fd9GaOOWllE+5r3y/Qp8YkhtXIVwFzNo5g2zk+Yxa0lFXkhy3FfVpMqID4oZK4TauoyhdJE1g8jnhLEaYJ3a2cwZFsCvGM3kk7AQnNb0RzJAYoPeA7O+kJKR7oZ2zqhNqblYUqVZ+LgMjp8cltylhNSazXvqQVC8z98jz4Yr6M93VSWz8JAE5z0werXnRPLoLJREcLXqWdylMGmIYybCBXOvC5UZmhL0Gzq7UXNbE7B+sTdkd2zU0zzrJ5+y5H8fqPqixJ1mmA8=
+    on_start: always
+    on_success: always
