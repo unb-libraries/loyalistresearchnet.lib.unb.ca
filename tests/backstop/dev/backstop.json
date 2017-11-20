@@ -21,7 +21,7 @@
   "onReadyScript": "chromy/onReady.js",
   "scenarios": [
     {
-      "label": "unbherbarium.lib.unb.ca Homepage",
+      "label": "dev-loyalistrsearchnet.org Homepage",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "http://dev-loyalistresearchnet.org",
       "referenceUrl": "",
