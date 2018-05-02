@@ -23,7 +23,8 @@ RUN /scripts/DeployUpstreamContainerScripts.sh && \
 # Add Mail Sending, Rsyslog
 RUN apk --update add postfix rsyslog php7-redis && \
   rm -f /var/cache/apk/* && \
-  touch /var/log/nginx/access.log && touch /var/log/nginx/error.log
+  touch /var/log/nginx/access.log && touch /var/log/nginx/error.log && \
+  mkdir -p /var/spool/rsyslog; chgrp adm /var/spool/rsyslog; chmod g+w /var/spool/rsyslog
 
 # Tests.
 COPY ./tests ${DRUPAL_TESTING_ROOT}
