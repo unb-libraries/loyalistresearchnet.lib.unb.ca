@@ -15,7 +15,7 @@
     }
   ],
   "require-dev": {
-    "unblibraries/dockworker": "^8.0.0",
+    "unb-libraries/dockworker": "^8.0.0",
     "twbs/bootstrap-sass": "^3.3.7"
   },
   "scripts": {
