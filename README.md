@@ -3,6 +3,12 @@
 
 loyalistresearchnet.org site build repository.
 
+## Build Status
+| Branch | Status |
+|--------|--------|
+| dev | [![Build Status](https://travis-ci.org/unb-libraries/loyalistresearchnet.org.svg?branch=dev)](https://travis-ci.org/unb-libraries/loyalistresearchnet.org) |
+| prod | [![Build Status](https://travis-ci.org/unb-libraries/loyalistresearchnet.org.svg?branch=prod)](https://travis-ci.org/unb-libraries/loyalistresearchnet.org) |
+
 ## Getting Started
 ### Requirements
 The following packages are required to be globally installed on your development instance:
