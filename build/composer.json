@@ -44,7 +44,7 @@
     },
     "license": "MIT",
     "minimum-stability": "stable",
-    "name": "unb-libraries/loyalistresearchnet.org",
+    "name": "unb-libraries/loyalistresearchnet.org-drupal8",
     "prefer-stable": true,
     "repositories": [
         {
