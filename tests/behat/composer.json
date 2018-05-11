@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "name": "unblibraries/loyalistresearchnet.org-tests",
+  "name": "unb-libraries/loyalistresearchnet.org-tests",
   "description": "Libraries for behat testing for loyalistresearchnet.org.",
   "authors": [
     {
