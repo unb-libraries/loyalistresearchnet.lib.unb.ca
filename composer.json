@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "minimum-stability": "stable",
-  "name": "unblibraries/loyalistresearchnet.org",
+  "name": "unb-libraries/loyalistresearchnet.org",
   "description": "Provision/scaffolding for developing drupal instance.",
   "config": {
     "preferred-install": {
