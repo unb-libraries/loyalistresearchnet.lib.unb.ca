@@ -69,7 +69,9 @@
         "drupal/zircon": "1.0-rc1",
         "drush/drush": "^9.3.0",
         "webflo/drupal-finder": "^1.1",
-        "webmozart/path-util": "^2.3"
+        "webmozart/path-util": "^2.3",
+        "webmozart/path-util": "^2.3",
+        "drupal/bootstrap": "3.13"
     },
     "require-dev": {
         "unb-libraries/drupal-development-libraries": "dev-8.x-1.x"
