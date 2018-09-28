@@ -46,6 +46,10 @@ after_success:
   - CargoDock/travis/cleanupOldImages.sh
   - CargoDock/travis/triggerKubeDeploy.sh
 
+after_failure:
+  - sleep 10
+  - echo "--Failure reported.--"
+
 notifications:
   slack:
     rooms:
