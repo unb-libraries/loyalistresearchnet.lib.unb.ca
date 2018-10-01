@@ -9,6 +9,7 @@ libraries:
   - loyalistresearchnet/global-styling
 
 regions:
+  branding: 'Branding'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'

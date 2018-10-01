@@ -9,7 +9,7 @@ dependencies:
 id: userlogin
 theme: loyalistresearchnet
 region: header
-weight: -6
+weight: -4
 provider: null
 plugin: user_login_block
 settings:
