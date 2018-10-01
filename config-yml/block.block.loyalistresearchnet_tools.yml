@@ -1,6 +1,6 @@
 uuid: 85c16636-31d7-43ac-ae4d-a710ffabf2e5
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -12,7 +12,7 @@ _core:
   default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
 id: loyalistresearchnet_tools
 theme: loyalistresearchnet
-region: main_menu
+region: navigation
 weight: -7
 provider: null
 plugin: 'system_menu_block:tools'
