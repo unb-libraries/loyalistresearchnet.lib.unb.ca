@@ -1,0 +1,7 @@
+loyres_core.welcome:
+  title: 'Home'
+  description: 'Welcome'
+  parent: main
+  menu_name: main
+  url: internal:/
+  weight: 10

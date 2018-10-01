@@ -1,0 +1,5 @@
+name: Loyalist Research Network Core
+type: module
+description: Core functionality extension for loyalistresearchnet.org
+core: 8.x
+package: Loyalist Reserch Network

@@ -20,6 +20,7 @@ module:
   history: 0
   image: 0
   link: 0
+  loyres_core: 0
   menu_ui: 0
   migrate: 0
   migrate_drupal: 0
