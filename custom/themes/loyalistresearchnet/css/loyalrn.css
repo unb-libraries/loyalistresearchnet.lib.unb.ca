@@ -1,6 +1,34 @@
 /* Global */
 
-/* Give inactive, unvisited links a contrasting look. */
-.node__content a {
-    color: #c01700;
+/* Hyperlinks */
+.dialog-off-canvas-main-canvas a,
+.dialog-off-canvas-main-canvas a:visited {
+  color: crimson;
+}
+
+.dialog-off-canvas-main-canvas a:active,
+.dialog-off-canvas-main-canvas a:focus,
+.dialog-off-canvas-main-canvas a:focus-within,
+.dialog-off-canvas-main-canvas a:hover {
+  text-decoration: underline;
+  color: darkred;
+}
+
+/* Menu */
+header#navbar {
+  background-color: #333;
+}
+
+header#navbar a {
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+header#navbar a.is-active {
+  color: crimson;
+}
+
+header#navbar li:hover {
+  background-color: firebrick;
 }
