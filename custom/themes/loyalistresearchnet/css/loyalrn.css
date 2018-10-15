@@ -29,7 +29,7 @@ header#navbar a {
 }
 
 header#navbar a.is-active {
-  color: crimson;
+  background-color: firebrick;
 }
 
 header#navbar li:hover {
