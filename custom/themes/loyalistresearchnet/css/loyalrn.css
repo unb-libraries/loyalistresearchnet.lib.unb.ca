@@ -16,13 +16,16 @@
 
 /* Menu */
 header#navbar {
+  min-height: 42px;
   background-color: #333;
 }
 
 header#navbar a {
+  padding: 10px;
   color: white;
-  font-weight: bold;
-  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 header#navbar a.is-active {

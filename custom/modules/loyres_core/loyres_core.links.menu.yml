@@ -1,7 +1,56 @@
-loyres_core.welcome:
+loyres_core.home:
   title: 'Home'
-  description: 'Welcome'
+  description: 'Home'
   parent: main
   menu_name: main
   url: internal:/
   weight: 10
+loyres_core.unbcol:
+  title: 'The Loyalist Collection at UNB'
+  description: 'The Loyalist Collection at UNB'
+  parent: main
+  menu_name: main
+  url: internal:/node/15
+  weight: 20
+loyres_core.primary:
+  title: 'Primary Sources'
+  description: 'Primary Sources'
+  parent: main
+  menu_name: main
+  url: internal:/node/39
+  weight: 30
+loyres_core.secondary:
+  title: 'Secondary Sources'
+  description: 'Secondary Sources'
+  parent: main
+  menu_name: main
+  url: internal:/node/28
+  weight: 40
+loyres_core.recent:
+  title: 'Recent Publications'
+  description: 'Recent Publications'
+  parent: main
+  menu_name: main
+  url: internal:/node/16
+  weight: 50
+loyres_core.blogs:
+  title: 'Blogs'
+  description: 'Blogs'
+  parent: main
+  menu_name: main
+  url: internal:/node/11
+  weight: 60
+loyres_core.researchers:
+  title: 'Researchers'
+  description: 'Researchers'
+  parent: main
+  menu_name: main
+  url: internal:/node/5
+  weight: 70
+loyres_core.contact:
+  title: 'Contact'
+  description: 'Contact'
+  parent: main
+  menu_name: main
+  url: internal:/node/12
+  weight: 80
