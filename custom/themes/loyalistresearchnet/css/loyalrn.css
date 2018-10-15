@@ -35,3 +35,13 @@ header#navbar a.is-active {
 header#navbar li:hover {
   background-color: firebrick;
 }
+
+/* All pages */
+nav.tabs {
+  margin-bottom: 10px;
+}
+
+/* News */
+section#block-views-block-news-block-1 div.views-row {
+  margin-bottom: 10px;
+}
