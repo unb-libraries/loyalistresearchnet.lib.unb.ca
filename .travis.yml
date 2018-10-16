@@ -23,7 +23,7 @@ env:
     - DOCKER_UPSTREAM_IMAGE=unblibraries/drupal:alpine-nginx-php7-8.x-composer
     - OLD_IMAGES_TO_KEEP=2
     - SERVICE_DEPLOY_PORT=80
-    - SERVICE_TEST_UP_PATH=/user/login
+    - SERVICE_TEST_UP_PATH=/user
 
 before_install:
   - git clone git://github.com/unb-libraries/CargoDock.git CargoDock
