@@ -66,6 +66,7 @@
         "drupal/core": "8.6.1",
         "drupal/features": "3.8",
         "drush/drush": "9.4.0",
+        "drupal/google_analytics": "2.3",
         "webflo/drupal-finder": "^1.1",
         "webmozart/path-util": "^2.3"
     },
