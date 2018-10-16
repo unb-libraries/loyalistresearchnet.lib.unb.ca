@@ -14,6 +14,17 @@
   color: darkred;
 }
 
+/* Branding */
+a.name.navbar-brand {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* Front */
+h2.block-title {
+  font-size: 26px;
+}
+
 /* Menu */
 header#navbar {
   min-height: 42px;
@@ -37,6 +48,10 @@ header#navbar li:hover {
 }
 
 /* All pages */
+h1.js-quickedit-page-title.page-header {
+  font-size: 24px;
+}
+
 nav.tabs {
   margin-bottom: 10px;
 }
