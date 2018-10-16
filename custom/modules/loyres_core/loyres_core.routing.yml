@@ -1,0 +1,18 @@
+loyres_core.user:
+  path: '/user'
+  defaults:
+    _title: 'View Own User'
+  requirements:
+    _role: 'administrator'
+loyres_core.user_add:
+  path: '/user/register'
+  defaults:
+    _title: 'Add User'
+  requirements:
+    _role: 'administrator'
+loyres_core.user_pass:
+  path: '/user/password'
+  defaults:
+    _title: 'Reset Password'
+  requirements:
+    _role: 'administrator'
