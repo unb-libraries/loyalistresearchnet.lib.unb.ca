@@ -1,4 +1,5 @@
 /* Global */
+dt {margin-top: 1.6em;}
 
 /* Hyperlinks */
 .dialog-off-canvas-main-canvas a,
@@ -40,11 +41,11 @@ header#navbar a {
 }
 
 header#navbar a.is-active {
-  background-color: firebrick;
+  background-color: #aa0404;
 }
 
 header#navbar li:hover {
-  background-color: firebrick;
+  background-color: #aa0404;
 }
 
 /* All pages */
