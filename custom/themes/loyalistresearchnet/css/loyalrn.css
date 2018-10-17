@@ -4,7 +4,7 @@ dt {margin-top: 1.6em;}
 /* Hyperlinks */
 .dialog-off-canvas-main-canvas a,
 .dialog-off-canvas-main-canvas a:visited {
-  color: crimson;
+  color: #aa0404;
 }
 
 .dialog-off-canvas-main-canvas a:active,
@@ -41,11 +41,11 @@ header#navbar a {
 }
 
 header#navbar a.is-active {
-  background-color: #aa0404;
+  background-color: firebrick;
 }
 
 header#navbar li:hover {
-  background-color: #aa0404;
+  background-color: firebrick;
 }
 
 /* All pages */
