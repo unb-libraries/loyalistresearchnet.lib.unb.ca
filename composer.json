@@ -8,12 +8,6 @@
       "*": "dist"
     }
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/unb-libraries/dockworker.git"
-    }
-  ],
   "require-dev": {
     "unb-libraries/dockworker": "^8.0.0",
     "twbs/bootstrap-sass": "^3.3.7"
