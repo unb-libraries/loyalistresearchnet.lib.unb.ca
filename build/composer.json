@@ -43,9 +43,9 @@
         }
     },
     "license": "MIT",
-    "minimum-stability": "stable",
-    "name": "unb-libraries/loyalistresearchnet.org",
+    "minimum-stability": "dev",
     "prefer-stable": true,
+    "name": "unb-libraries/loyalistresearchnet.org",
     "repositories": [
         {
             "type": "composer",
