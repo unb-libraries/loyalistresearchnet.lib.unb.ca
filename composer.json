@@ -1,6 +1,7 @@
 {
   "license": "MIT",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "name": "unb-libraries/loyalistresearchnet.org",
   "description": "Scaffold and provision local development for loyalistresearchnet.org",
   "config": {
@@ -9,7 +10,7 @@
     }
   },
   "require-dev": {
-    "unb-libraries/dockworker": "^8.0.0",
+    "unb-libraries/dockworker-drupal": "^2.1.0",
     "twbs/bootstrap-sass": "^3.3.7"
   },
   "scripts": {
