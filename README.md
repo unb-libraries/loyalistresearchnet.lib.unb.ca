@@ -1,4 +1,4 @@
-![loyalistresearchnet.org screenshot](screenshot.png "loyalistresearchnet.org screenshot")
+![loyalistresearchnet.org screenshot](https://github.com/unb-libraries/loyalistresearchnet.org/raw/prod/screenshot.png "loyalistresearchnet.org screenshot")
 # [loyalistresearchnet.org](https://loyalistresearchnet.org/) : Instance Repository
 [![Build Status](https://travis-ci.com/unb-libraries/loyalistresearchnet.org.svg?branch=prod)](https://travis-ci.com/unb-libraries/loyalistresearchnet.org) [![GitHub license](https://img.shields.io/github/license/unb-libraries/loyalistresearchnet.org)](https://github.com/unb-libraries/loyalistresearchnet.org/blob/dev/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/unb-libraries/loyalistresearchnet.org)
 

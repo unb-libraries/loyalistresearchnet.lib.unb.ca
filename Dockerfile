@@ -1,16 +1,11 @@
-FROM unblibraries/drupal:8.x-1.x
+FROM unblibraries/dockworker-drupal:latest
 MAINTAINER UNB Libraries <libsupport@unb.ca>
-
-LABEL name="loyalistresearchnet.org"
-LABEL vcs-ref=""
-LABEL vcs-url="https://github.com/unb-libraries/loyalistresearchnet.org"
 
 ENV DRUPAL_SITE_ID loyaltres
 ENV DRUPAL_SITE_URI loyalistresearchnet.org
 ENV DRUPAL_SITE_UUID 4f7e5705-9fb7-4e1b-a2fe-032e04e64e9a
 
-# Deploy upstream scripts, and then override with any local.
-RUN curl -sSL https://raw.githubusercontent.com/unb-libraries/CargoDock/drupal-8.x-1.x/container/deploy.sh | sh
+# Override scripts with any local.
 COPY ./scripts/container /scripts
 
 # Add additional OS packages.
@@ -41,3 +36,20 @@ COPY ./custom/modules ${TMP_DRUPAL_BUILD_DIR}/custom_modules
 ENV DEPLOY_ENV prod
 ENV DRUPAL_DEPLOY_CONFIGURATION TRUE
 ENV DRUPAL_CONFIGURATION_EXPORT_SKIP devel
+
+# Metadata
+ARG BUILD_DATE
+ARG VCS_REF
+ARG VERSION
+LABEL ca.unb.lib.generator="drupal8" \
+      com.microscaling.docker.dockerfile="/Dockerfile" \
+      com.microscaling.license="MIT" \
+      org.label-schema.build-date=$BUILD_DATE \
+      org.label-schema.description="loyalistresearchnet.org is the web instance for the Loyalist Research Network at UNB Libraries." \
+      org.label-schema.name="loyalistresearchnet.org" \
+      org.label-schema.schema-version="1.0" \
+      org.label-schema.url="https://loyalistresearchnet.org" \
+      org.label-schema.vcs-ref=$VCS_REF \
+      org.label-schema.vcs-url="https://github.com/unb-libraries/loyalistresearchnet.org" \
+      org.label-schema.vendor="University of New Brunswick Libraries" \
+      org.label-schema.version=$VERSION
