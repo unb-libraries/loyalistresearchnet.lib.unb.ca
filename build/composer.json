@@ -18,7 +18,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "description": "Drupal 8 component of loyalistresearchnet.org",
+    "description": "Drupal 8 component of loyalistresearchnet.lib.unb.ca",
     "extra": {
         "enable-patching": true,
         "installer-paths": {
@@ -45,7 +45,7 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "name": "unb-libraries/loyalistresearchnet.org",
+    "name": "unb-libraries/loyalistresearchnet.lib.unb.ca",
     "repositories": [
         {
             "type": "composer",

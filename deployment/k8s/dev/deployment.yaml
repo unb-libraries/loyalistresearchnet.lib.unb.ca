@@ -4,13 +4,13 @@ metadata:
   labels:
     app: drupal
     appMajor: "8"
-    instance: loyalistresearchnet.org
+    instance: loyalistresearchnet.lib.unb.ca
     tier: frontend
-    uri: dev-loyalistresearchnet.org
+    uri: dev-loyalistresearchnet.lib.unb.ca
     vcsOwner: unb-libraries
-    vcsRepository: loyalistresearchnet.org
+    vcsRepository: loyalistresearchnet.lib.unb.ca
     vcsRef: dev
-  name: loyalistresearchnet-org
+  name: loyalistresearchnet-lib-unb-ca
   namespace: dev
 spec:
   replicas: 1
@@ -26,16 +26,16 @@ spec:
       labels:
         app: drupal
         appMajor: "8"
-        instance: loyalistresearchnet.org
+        instance: loyalistresearchnet.lib.unb.ca
         tier: frontend
-        uri: dev-loyalistresearchnet.org
+        uri: dev-loyalistresearchnet.lib.unb.ca
         vcsOwner: unb-libraries
-        vcsRepository: loyalistresearchnet.org
+        vcsRepository: loyalistresearchnet.lib.unb.ca
         vcsRef: dev
     spec:
       containers:
         -
-          name: loyalistresearchnet-org
+          name: loyalistresearchnet-lib-unb-ca
           readinessProbe:
             httpGet:
               path: /health
@@ -105,4 +105,4 @@ spec:
         -
           name: drupal-persistent-storage
           persistentVolumeClaim:
-            claimName: loyalistresearchnet-org
+            claimName: loyalistresearchnet-lib-unb-ca

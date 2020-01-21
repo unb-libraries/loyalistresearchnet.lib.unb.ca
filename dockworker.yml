@@ -1,7 +1,7 @@
 dockworker:
   version: '3.0'
   application:
-    name: loyalistresearchnet.org
+    name: loyalistresearchnet.lib.unb.ca
     finish_marker: '99_z_notify_user_URI'
     project_prefix: LOYRES
     upstream_images:
@@ -15,12 +15,12 @@ dockworker:
       - dev
       - prod
   github:
-    repo: loyalistresearchnet.org
+    repo: loyalistresearchnet.lib.unb.ca
     owner: unb-libraries
   image:
     push_branches:
       - dev
       - prod
-    name: unblibraries/loyalistresearchnet.org
+    name: unblibraries/loyalistresearchnet.lib.unb.ca
     date_tag_image: true
     repository: dockercloud

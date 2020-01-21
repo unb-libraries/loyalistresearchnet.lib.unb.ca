@@ -2,8 +2,8 @@
   "license": "MIT",
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "name": "unb-libraries/loyalistresearchnet.org",
-  "description": "Scaffold and provision local development for loyalistresearchnet.org",
+  "name": "unb-libraries/loyalistresearchnet.lib.unb.ca",
+  "description": "Scaffold and provision local development for loyalistresearchnet.lib.unb.ca",
   "config": {
     "preferred-install": {
       "*": "dist"

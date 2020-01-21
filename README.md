@@ -1,8 +1,8 @@
-![loyalistresearchnet.org screenshot](https://github.com/unb-libraries/loyalistresearchnet.org/raw/prod/screenshot.png "loyalistresearchnet.org screenshot")
-# [loyalistresearchnet.org](https://loyalistresearchnet.org/) : Instance Repository
-[![Build Status](https://travis-ci.com/unb-libraries/loyalistresearchnet.org.svg?branch=prod)](https://travis-ci.com/unb-libraries/loyalistresearchnet.org) [![GitHub license](https://img.shields.io/github/license/unb-libraries/loyalistresearchnet.org)](https://github.com/unb-libraries/loyalistresearchnet.org/blob/dev/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/unb-libraries/loyalistresearchnet.org)
+![loyalistresearchnet.lib.unb.ca screenshot](https://github.com/unb-libraries/loyalistresearchnet.lib.unb.ca/raw/prod/screenshot.png "loyalistresearchnet.lib.unb.ca screenshot")
+# [loyalistresearchnet.lib.unb.ca](https://loyalistresearchnet.lib.unb.ca/) : Instance Repository
+[![Build Status](https://travis-ci.com/unb-libraries/loyalistresearchnet.lib.unb.ca.svg?branch=prod)](https://travis-ci.com/unb-libraries/loyalistresearchnet.lib.unb.ca) [![GitHub license](https://img.shields.io/github/license/unb-libraries/loyalistresearchnet.lib.unb.ca)](https://github.com/unb-libraries/loyalistresearchnet.lib.unb.ca/blob/dev/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/unb-libraries/loyalistresearchnet.lib.unb.ca)
 
-This repository contains all assets used to test, build, and deploy the [loyalistresearchnet.org](https://loyalistresearchnet.org) Drupal application. This repository extends the [unb-libraries/docker-drupal](https://github.com/unb-libraries/docker-drupal) base image, which deploys nginx and php-fpm in the service container.
+This repository contains all assets used to test, build, and deploy the [loyalistresearchnet.lib.unb.ca](https://loyalistresearchnet.lib.unb.ca) Drupal application. This repository extends the [unb-libraries/docker-drupal](https://github.com/unb-libraries/docker-drupal) base image, which deploys nginx and php-fpm in the service container.
 
 ## How To Deploy
 Local deployment, development and testing is accelerated via [dockworker](https://github.com/unb-libraries/dockworker), our unified framework of [Robo](https://robo.li/) commands that streamline local development of our application on Linux or OSX.
@@ -33,6 +33,6 @@ Run ```vendor/bin/dockworker``` to list available dockworker commands for this a
 ## Author / Licensing
 - Developed by [![UNB Libraries](https://github.com/unb-libraries/assets/raw/master/unblibbadge.png "UNB Libraries")](https://lib.unb.ca/)
 - This work is published through our strong commitment to making as much of our development/workflow as possible freely available.
-- Consequently, the contents of this repository [unb-libraries/loyalistresearchnet.org] are licensed under the [MIT License](http://opensource.org/licenses/mit-license.html). This license explicitly excludes:
+- Consequently, the contents of this repository [unb-libraries/loyalistresearchnet.lib.unb.ca] are licensed under the [MIT License](http://opensource.org/licenses/mit-license.html). This license explicitly excludes:
    - Any website content, which remains the exclusive property of its author(s).
    - The UNB logo and any of the associated suite of visual identity assets, which remains the exclusive property of the University of New Brunswick.
