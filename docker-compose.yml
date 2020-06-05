@@ -44,14 +44,14 @@ services:
       - ./env/redis.env
 
   drupal-solr-lib-unb-ca:
-    image: unblibraries/solr-drupal:8.x-3.x
+    image: unblibraries/solr-drupal:8.x-4.x
     expose:
       - "8983"
     networks:
       - loyalistresearchnet.lib.unb.ca
     entrypoint:
       - docker-entrypoint-multiple.sh
-      - loyalistresearchnet_org:/solr-conf
+      - loyalistresearchnet.lib.unb.ca:/solr-conf
 
   mailhog:
     image: mailhog/mailhog
