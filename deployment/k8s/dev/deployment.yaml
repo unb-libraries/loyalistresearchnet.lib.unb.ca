@@ -36,6 +36,8 @@ spec:
         vcsRepository: loyalistresearchnet.lib.unb.ca
         vcsRef: dev
     spec:
+      nodeSelector:
+        deployenv: dev
       containers:
         -
           name: loyalistresearchnet-lib-unb-ca
