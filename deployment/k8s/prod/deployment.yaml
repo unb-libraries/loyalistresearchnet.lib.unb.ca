@@ -45,14 +45,14 @@ spec:
             httpGet:
               path: /health
               port: 80
-            initialDelaySeconds: 65
+            initialDelaySeconds: 30
             timeoutSeconds: 3
             periodSeconds: 15
           livenessProbe:
             httpGet:
               path: /health
               port: 80
-            initialDelaySeconds: 130
+            initialDelaySeconds: 100
             timeoutSeconds: 3
             periodSeconds: 15
           env:
