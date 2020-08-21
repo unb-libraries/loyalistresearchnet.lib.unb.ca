@@ -31,7 +31,7 @@ If you work with unb-libraries applications often, you may also consider [instal
 Run ```vendor/bin/dockworker``` to list available dockworker commands for this application.
 
 ## Author / Contributors
-This application was created at [![UNB Libraries](https://github.com/unb-libraries/assets/raw/master/unblibbadge.png "UNB Libraries")](https://lib.unb.ca/) by the following people:
+This application was created at [![UNB Libraries](https://github.com/unb-libraries/assets/raw/master/unblibbadge.png "UNB Libraries")](https://lib.unb.ca/) by the following humans:
 
 [//]: contributors
 
@@ -43,6 +43,6 @@ This application was created at [![UNB Libraries](https://github.com/unb-librari
 
 ## Licensing
 - As part of our 'open' ethos, UNB Libraries licenses its applications and workflows to be freely available to all whenever possible.
-- Consequently, the contents of this repository [unb-libraries/loyalistresearchnet.org] are licensed under the [MIT License](http://opensource.org/licenses/mit-license.html). This license explicitly excludes:
+- Consequently, the contents of this repository [unb-libraries/loyalistresearchnet.lib.unb.ca] are licensed under the [MIT License](http://opensource.org/licenses/mit-license.html). This license explicitly excludes:
    - Any website content, which remains the exclusive property of its author(s).
    - The UNB logo and any of the associated suite of visual identity assets, which remains the exclusive property of the University of New Brunswick.
