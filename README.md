@@ -1,4 +1,4 @@
-![loyalistresearchnet.lib.unb.ca screenshot](https://github.com/unb-libraries/loyalistresearchnet.lib.unb.ca/raw/prod/screenshot.png "loyalistresearchnet.lib.unb.ca screenshot")
+![loyalistresearchnet.lib.unb.ca screenshot](https://github.com/unb-libraries/loyalistresearchnet.lib.unb.ca/raw/prod/.dockworker/screenshot.png "loyalistresearchnet.lib.unb.ca screenshot")
 # [loyalistresearchnet.lib.unb.ca](https://loyalistresearchnet.lib.unb.ca/) : Instance Repository
 [![Build Status](https://travis-ci.com/unb-libraries/loyalistresearchnet.lib.unb.ca.svg?branch=prod)](https://travis-ci.com/unb-libraries/loyalistresearchnet.lib.unb.ca) [![GitHub license](https://img.shields.io/github/license/unb-libraries/loyalistresearchnet.lib.unb.ca)](https://github.com/unb-libraries/loyalistresearchnet.lib.unb.ca/blob/dev/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/unb-libraries/loyalistresearchnet.lib.unb.ca)
 
