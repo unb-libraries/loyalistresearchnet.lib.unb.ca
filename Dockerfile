@@ -1,4 +1,4 @@
-FROM unblibraries/drupal:8.x-2.x-slim-unblib
+FROM unblibraries/drupal:8.x-3.x-unblib
 MAINTAINER UNB Libraries <libsupport@unb.ca>
 
 # Install additional OS packages.
@@ -8,7 +8,7 @@ ENV DRUPAL_SITE_URI loyalistresearchnet.lib.unb.ca
 ENV DRUPAL_SITE_UUID 4f7e5705-9fb7-4e1b-a2fe-032e04e64e9a
 
 # Build application.
-COPY ./build /build
+COPY ./build/ /build/
 RUN ${RSYNC_MOVE} /build/scripts/container/ /scripts/ && \
   /scripts/addOsPackages.sh && \
   /scripts/initOpenLdap.sh && \
