@@ -10,7 +10,7 @@
     }
   },
   "require-dev": {
-    "unb-libraries/dockworker-drupal": "~3",
+    "unb-libraries/dockworker-drupal": "~4",
     "twbs/bootstrap-sass": "^3.3.7"
   },
   "scripts": {
