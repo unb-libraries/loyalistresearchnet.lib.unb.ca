@@ -55,7 +55,7 @@
     "require": {
         "drupal/bootstrap": "3.23",
         "drupal/config_update": "1.5",
-        "drupal/core": "8.9.14",
+        "drupal/core": "8.9.15",
         "drupal/features": "3.8",
         "drupal/google_analytics": "2.5",
         "drupal/health_check": "1.3",
