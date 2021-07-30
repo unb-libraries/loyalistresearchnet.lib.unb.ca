@@ -4,6 +4,7 @@ description: 'Sub-theme for lotalistresearchnet.org'
 base theme: bootstrap
 package: Custom
 core: 8.x
+core_version_requirement: ^8 || ^9
 
 libraries:
   - loyalistresearchnet/global-styling
