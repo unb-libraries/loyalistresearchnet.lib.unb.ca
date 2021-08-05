@@ -5,5 +5,4 @@ dependencies: {  }
 name: Forums
 vid: forums
 description: 'Forum navigation vocabulary'
-hierarchy: 0
 weight: -10
