@@ -1,6 +1,6 @@
 ![loyalistresearchnet.lib.unb.ca screenshot](https://github.com/unb-libraries/loyalistresearchnet.lib.unb.ca/raw/prod/.dockworker/screenshot.png "loyalistresearchnet.lib.unb.ca screenshot")
 # [loyalistresearchnet.lib.unb.ca](https://loyalistresearchnet.lib.unb.ca/) : Lean Instance Repository
-[![Build Status](https://github.com/unb-libraries/loyalistresearchnet.lib.unb.ca/actions/workflows/deployment-workflow.yaml/badge.svg?branch=prod)](https://github.com/unb-libraries/loyalistresearchnet.lib.unb.ca/actions/workflows/deployment-workflow.yaml)
+[![Build Status](https://github.com/unb-libraries/loyalistresearchnet.lib.unb.ca/actions/workflows/test-suite.yaml/badge.svg?branch=prod)](https://github.com/unb-libraries/loyalistresearchnet.lib.unb.ca/actions/workflows/test-suite.yaml)
 [![GitHub license](https://img.shields.io/github/license/unb-libraries/loyalistresearchnet.lib.unb.ca)](https://github.com/unb-libraries/loyalistresearchnet.lib.unb.ca/blob/prod/LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/unb-libraries/loyalistresearchnet.lib.unb.ca?label=lean%20repo%20size)
 
