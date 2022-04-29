@@ -14,7 +14,7 @@
   "prefer-stable": true,
   "require-dev": {
     "twbs/bootstrap-sass": "^3.3.7",
-    "unb-libraries/dockworker-drupal": "^4"
+    "unb-libraries/dockworker-drupal": "^5"
   },
   "scripts": {
     "post-update-cmd": [
