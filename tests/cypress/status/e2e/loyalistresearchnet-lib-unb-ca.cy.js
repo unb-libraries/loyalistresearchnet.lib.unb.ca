@@ -21,17 +21,4 @@ describe('Loyalist Research Network', {baseUrl: host, groups: ['sites']}, () => 
     });
   })
 
-  context('The Loyalist Collection at UNB', {baseUrl: `${host}/node/15`}, () => {
-    beforeEach(() => {
-      cy.visit('/')
-      cy.title()
-        .should('contain', 'The Loyalist Collection at UNB | The Loyalist Research Network')
-    })
-
-    specify('Content should contain link to "www.lib.unb.ca/collections/loyalist"', () => {
-      cy.get('article p a[href="http://www.lib.unb.ca/collections/loyalist/"]')
-        .should('be.visible')
-    });
-  })
-
 })
