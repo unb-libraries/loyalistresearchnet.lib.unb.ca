@@ -16,24 +16,24 @@ bundle: news
 mode: default
 content:
   comment_node_news:
-    label: hidden
     type: comment_default
-    weight: 1
+    label: hidden
     settings:
-      pager_id: 0
       view_mode: default
+      pager_id: 0
     third_party_settings: {  }
+    weight: 1
     region: content
   field_news_body:
     type: text_default
-    weight: 0
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
     region: content
   links:
-    weight: 2
     settings: {  }
     third_party_settings: {  }
+    weight: 2
     region: content
 hidden: {  }
